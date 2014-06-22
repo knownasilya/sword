@@ -1,19 +1,23 @@
 'use strict';
 
-var chapterMap = {
-  1: ['gen', 'ge', 'g', 'genesis'],
-  2: ['exo']
-};
+var chapterMap = require('./maps/en');
 var chapterKeys = Object.keys(chapterMap);
 
-module.exports = function (passage) {
+module.exports = function (passage, language) {
+  if (language) {
+    try {
+      chapterMap = require('./maps/' + language);
+    } catch(e) {}
+  }
+
   var length = chapterKeys.length;
   var index = 0;
   var key;
   var books = passage.match(/((\d)*(\ )*[A-Za-z])+(\ )*/g)
     .map(trimMe);
-
-
+  var noBooks = removeBooks(passage, books);
+  var verses = noBooks.match(/(\d)+(:)*(\d)*/g).map(trimMe);
+  console.log(noBooks, verses);
   for (; index < length; index++) {
     key = chapterKeys[index];
 
@@ -45,4 +49,21 @@ function bookNumber(books) {
   });
 
   return bookIds;
+}
+
+function removeBooks(str, books) {
+  if (!books) {
+    return str;
+  }
+
+  var result = str;
+  
+  books.forEach(function (book) {
+    result = result.replace(book, '');
+  });
+
+  // remove spaces - its safe now
+  result = result.replace(' ', '');
+
+  return result;
 }
