@@ -8,5 +8,3 @@ piercing to the division of soul and of spirit, of joints and of marrow,
 and discerning the thoughts and intentions of the heart.
 
 _Hebrews 4:12 (ESV)_
-
-
