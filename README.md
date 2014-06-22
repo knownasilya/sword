@@ -38,7 +38,7 @@ var availableLanguages = sword.languages;
 
 Results are in the following form:
 
-```json
+```js
 [{
   start: {
     book: 64, chapter: 1, verse: 2
