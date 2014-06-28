@@ -23,6 +23,10 @@ module.exports = function (passages, language) {
   }
 };
 
+module.exports.languages = Object.keys(languages).map(function (key) {
+  return [languages[key].name, key];
+});
+
 function trimMe(item) {
   return item && typeof item === 'string'
     ? item.trim() : item;

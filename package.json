@@ -1,6 +1,6 @@
 {
   "name": "sword",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "Bible passage parser",
   "main": "index.js",
   "scripts": {

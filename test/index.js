@@ -35,6 +35,11 @@ test('Multiple passages', function (t) {
   t.end();
 });
 
+test('Languages', function (t) {
+  t.same([['English', 'en']], sword.languages);
+  t.end();
+});
+
 function stub(start, end) {
   var result = [{ start: start }];
 
