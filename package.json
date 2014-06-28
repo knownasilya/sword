@@ -1,6 +1,6 @@
 {
   "name": "sword",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bible passage parser",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,14 @@
     "debug": "node debug test"
   },
   "author": "Ilya Radchenko",
+  "homepage": "https://github.com/knownasilya/sword"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knownasilya/sword.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knownasilya/sword/issues"
+  },
   "license": "ISC",
   "devDependencies": {
     "tap-spec": "^0.2.0",
