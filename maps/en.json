@@ -2,16 +2,41 @@
   "1": {
     "name": "Genesis",
     "shortName": "Gen.",
-    "shortCodes": ["gn", "gen", "genesis"]
+    "shortCodes": ["ge", "gn", "gen", "genesis"]
   },
   "2": {
     "name": "Exodus",
     "shortName": "Exo.",
-    "shortCodes": ["exodus", "exo"]
+    "shortCodes": ["exodus", "exo", "ex", "exod"]
+  },
+  "3": {
+    "name": "Leviticus",
+    "shortName": "Lev.",
+    "shortCodes": ["lev", "le", "lv"]
+  },
+  "4": {
+    "name": "Numbers",
+    "shortName": "Num.",
+    "shortCodes": ["num", "nu", "nm", "nb"]
+  },
+  "5": {
+    "name": "Deuteronomy",
+    "shortName": "Deut.",
+    "shortCodes": ["deut", "dt"]
+  },
+  "6": {
+    "name": "Joshua",
+    "shortName": "Josh.",
+    "shortCodes": ["josh", "jos", "jsh"]
+  },
+  "7": {
+    "name": "Judges",
+    "shortName": "Judg.",
+    "shortCodes": ["judg", "jdg", "jg", "jdgs"]
   },
   "64": {
     "name": "1 John",
     "shortName": "1Jn.",
-    "shortCodes": ["1jn", "1john", "1 jn"]
+    "shortCodes": ["1 john", "1 jn", "i jn", "1jn", "i jo", "1jo", "i joh", "1joh", "i jhn", "1 jhn", "1jhn", "i john", "1john", "1st john", "First John"]
   }
 }
