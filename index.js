@@ -1,14 +1,17 @@
 'use strict';
 
+
 var chapterMap = require('./maps/en');
+var languages = require('./languages');
+var mapBasePath = './maps/';
 var chapterKeys = Object.keys(chapterMap);
 var lastSection;
 var currentSection = 0;
 
 module.exports = function (passages, language) {
-  if (language) {
+  if (language && languages[language]) {
     try {
-      chapterMap = require('./maps/' + language);
+      chapterMap = require(mapBasePath + languages[language].map);
     } catch(e) {}
   }
 
