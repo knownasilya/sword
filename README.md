@@ -17,7 +17,7 @@ Use npm to install as a dependency:
 npm install --save sword
 ```
 
-The API is simple: 
+The API is simple:
 
 ```js
 var sword = require('sword');
@@ -52,6 +52,11 @@ Results are in the following form:
 Every item in the array is a distinct passage, i.e. comma seperated passages.
 From there every passage is represented by an object, which stays simple by
 only returning none redundent data.
+
+### Supported Languages
+
+* English (partially - so far)
+* ~~Russian~~ (near future)
 
 ## Contributing
 
