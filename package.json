@@ -4,7 +4,8 @@
   "description": "Bible passage parser",
   "main": "index.js",
   "scripts": {
-    "test": "node test | tap-spec"
+    "test": "node test | tap-spec",
+    "debug": "node debug test"
   },
   "author": "Ilya Radchenko",
   "license": "ISC",

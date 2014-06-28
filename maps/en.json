@@ -1,5 +1,17 @@
 {
-  "1": ["gn", "genesis"],
-  "2": ["exodus"],
-  "64": ["1jn", "1john"]
+  "1": {
+    "name": "Genesis",
+    "shortName": "Gen.",
+    "shortCodes": ["gn", "gen", "genesis"]
+  },
+  "2": {
+    "name": "Exodus",
+    "shortName": "Exo.",
+    "shortCodes": ["exodus", "exo"]
+  },
+  "64": {
+    "name": "1 John",
+    "shortName": "1Jn.",
+    "shortCodes": ["1jn", "1john", "1 jn"]
+  }
 }
