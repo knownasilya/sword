@@ -8,7 +8,7 @@
     "debug": "node debug test"
   },
   "author": "Ilya Radchenko",
-  "homepage": "https://github.com/knownasilya/sword"
+  "homepage": "https://github.com/knownasilya/sword",
   "repository": {
     "type": "git",
     "url": "https://github.com/knownasilya/sword.git"
