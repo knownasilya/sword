@@ -61,7 +61,7 @@ only returning none redundent data.
 ## Contributing
 
 To add a new language, you must first create a chapters map, located in `./maps`.
-This discribes the names of books, and aliases that work for each book. See `./maps/en.json` as
+This contains the keys/names of the books, and aliases that work for each book. See `./maps/en.json` as
 a reference.
 
 Once you've created a map, you must add a reference to `./languages.json`, specifying the language, and
