@@ -34,6 +34,21 @@
     "shortName": "Judg.",
     "shortCodes": ["judg", "jdg", "jg", "jdgs"]
   },
+  "8": {
+    "name": "Ruth",
+    "shortName": "Ruth",
+    "shortCodes": ["rth", "ru"]
+  },
+  "9": {
+    "name": "1 Samuel",
+    "shortName": "1 Sam.",
+    "shortCodes": ["1 sam", "1 sa", "1samuel", "1s", "i sa", "1 sm", "1sa", "i sam", "1sam", "i samuel", "1st samuel", "first samuel"]
+  },
+  "10": {
+    "name": "2 Samuel",
+    "shortName": "2 Sam.",
+    "shortCodes": ["2 sam", "2 sa", "2s", "ii sa", "2 sm", "2sa", "ii sam", "2sam", "ii samuel", "2samuel", "2nd samuel", "second samuel"]
+  },
   "64": {
     "name": "1 John",
     "shortName": "1Jn.",
