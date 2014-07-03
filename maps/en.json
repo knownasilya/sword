@@ -49,6 +49,56 @@
     "shortName": "2 Sam.",
     "shortCodes": ["2 sam", "2 sa", "2s", "ii sa", "2 sm", "2sa", "ii sam", "2sam", "ii samuel", "2samuel", "2nd samuel", "second samuel"]
   },
+  "11": {
+    "name": "1 Kings",
+    "shortName": "1 Kng",
+    "shortCodes": ["1 kgs", "1 ki", "1k", "i kgs", "1kgs", "i ki", "1ki", "i kings", "1kings", "1st kgs", "1st kings", "first kings", "first kgs", "1kin"]
+  },
+  "12": {
+    "name": "2 Kings",
+    "shortName": "2 Kng",
+    "shortCodes": ["2 kgs", "2 ki", "2k", "ii kgs", "2kgs", "ii ki", "2ki", "ii kings", "2kings", "2nd kgs", "2nd kings", "second kings", "second kgs", "2kin"]
+  },
+  "13": {
+    "name": "1 Chronicles",
+    "shortName": "1 Chron.",
+    "shortCodes": ["1 chron", "1 ch", "i ch", "1ch", "1 chr", "i chr", "1chr", "i chron", "1chron", "i chronicles", "1chronicles", "1st chronicles", "first chronicles"]
+  },
+  "14": {
+    "name": "2 Chronicles",
+    "shortName": "2 Chron.",
+    "shortCodes": ["2 chron", "2 ch", "ii ch", "2ch", "ii chr", "2chr", "ii chron", "2chron", "ii chronicles", "2chronicles", "2nd chronicles", "second chronicles"]
+  },
+  "15": {
+    "name": "Ezra",
+    "shortName": "Ezra",
+    "shortCodes": ["ezra", "ezr"]
+  },
+  "16": {
+    "name": "Nehemiah",
+    "shortName": "Neh",
+    "shortCodes": ["neh", "ne"]
+  },
+  "17": {
+    "name": "Esther",
+    "shortName": "Esth.",
+    "shortCodes": ["esth", "es"]
+  },
+  "18": {
+    "name": "Job",
+    "shortName": "Job",
+    "shortCodes": ["job", "jb"]
+  },
+  "19": {
+    "name": "Psalm",
+    "shortName": "Ps.",
+    "shortCodes": ["pslm", "ps", "psalms", "psa", "psm", "pss"]
+  },
+  "20": {
+    "name": "Proverbs",
+    "shortName": "Prov.",
+    "shortCodes": ["prov", "pr", "prv"]
+  },
   "64": {
     "name": "1 John",
     "shortName": "1Jn.",
