@@ -1,4 +1,4 @@
-sword
+sword [![NPM][npm-badge-image]][npm-badge-url]
 =====
 
 Simple Bible passage parser. Converts text based passages into a usable object.
@@ -75,3 +75,7 @@ To run the tests run the following after cloning the repo:
 npm install
 npm test
 ```
+
+[npm-badge-image]: https://nodei.co/npm/sword.png?compact=true
+[npm-badge-url]: https://nodei.co/npm/sword/
+
