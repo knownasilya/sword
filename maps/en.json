@@ -99,6 +99,41 @@
     "shortName": "Prov.",
     "shortCodes": ["prov", "pr", "prv"]
   },
+  "21": {
+    "name": "Ecclesiastes",
+    "shortName": "Eccl.",
+    "shortCodes": ["eccles", "ec"]
+  },
+  "22": {
+    "name": "Song of Solomon",
+    "shortName": "So.",
+    "shortCodes": ["song", "so", "song of songs", "sos"]
+  },
+  "23": {
+    "name": "Isaiah",
+    "shortName": "Isa.",
+    "shortCodes": ["isa", "is"]
+  },
+  "24": {
+    "name": "Jeremiah",
+    "shortName": "Jer.",
+    "shortCodes": ["jer", "je", "jr"]
+  },
+  "25": {
+    "name": "Lamentations",
+    "shortName": "Lam.",
+    "shortCodes": ["lam", "la"]
+  },
+  "26": {
+    "name": "Ezekiel",
+    "shortName": "Ezek.",
+    "shortCodes": ["ezek", "eze", "ezk"]
+  },
+  "27": {
+    "name": "Daniel",
+    "shortName": "Dan.",
+    "shortCodes": ["dan", "da", "dn"]
+  },
   "64": {
     "name": "1 John",
     "shortName": "1Jn.",
