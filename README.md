@@ -1,4 +1,4 @@
-sword
+sword [![Build Status][travis-badge-image]][travis-badge-url]
 =====
 
 Simple Bible passage parser. Converts text based passages into a usable object.
@@ -82,4 +82,6 @@ npm test
 
 [npm-badge-image]: https://nodei.co/npm/sword.png?compact=true
 [npm-badge-url]: https://nodei.co/npm/sword/
+[travis-badge-image]: https://travis-ci.org/knownasilya/sword.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/knownasilya/sword
 
