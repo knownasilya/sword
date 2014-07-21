@@ -1,4 +1,4 @@
-sword
+sword [![Build Status][travis-badge-image]][travis-badge-url]
 =====
 
 Simple Bible passage parser. Converts text based passages into a usable object.
@@ -8,6 +8,10 @@ piercing to the division of soul and of spirit, of joints and of marrow,
 and discerning the thoughts and intentions of the heart.
 
 _Hebrews 4:12 (ESV)_
+
+
+[![NPM][npm-badge-image]][npm-badge-url]
+
 
 ## Getting Started
 
@@ -75,3 +79,9 @@ To run the tests run the following after cloning the repo:
 npm install
 npm test
 ```
+
+[npm-badge-image]: https://nodei.co/npm/sword.png?compact=true
+[npm-badge-url]: https://nodei.co/npm/sword/
+[travis-badge-image]: https://travis-ci.org/knownasilya/sword.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/knownasilya/sword
+

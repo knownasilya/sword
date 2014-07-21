@@ -1,6 +1,5 @@
 'use strict';
 
-
 var chapterMap = require('./maps/en');
 var languages = require('./languages');
 var mapBasePath = './maps/';
@@ -24,47 +23,9 @@ module.exports = function (passages, language) {
 };
 
 module.exports.languages = Object.keys(languages).map(function (key) {
+  // TODO: handle if no name
   return [languages[key].name, key];
 });
-
-function trimMe(item) {
-  return item && typeof item === 'string'
-    ? item.trim() : item;
-}
-
-function bookNumber(books) {
-  var key;
-  var length = chapterKeys.length;
-  var index = 0;
-  var bookIds = books.map(function (book) {
-    for (; index < length; index++) {
-      key = chapterKeys[index];
-      var options = chapterMap[key];
-      if (options && options.shortCodes.indexOf(book) > -1) {
-        return Number(key);
-      }
-    }
-  });
-
-  return bookIds;
-}
-
-function removeBooks(str, books) {
-  if (!books) {
-    return str;
-  }
-
-  var result = str;
-  
-  books.forEach(function (book) {
-    result = result.replace(book, '');
-  });
-
-  // remove spaces - its safe now
-  result = result.replace(' ', '');
-
-  return result;
-}
 
 function bookName(id, language) {
   var valueMap = chapterMap;
@@ -139,25 +100,29 @@ function processSection(section) {
 }
 
 function bookKey(book,lang) {
-  return chapterKeys.map(Number).find(function (key) {
+  return arrayFind(chapterKeys.map(Number), function (key) {
     var chapterMeta = chapterMap[key];
 
     return chapterMeta.shortCodes.indexOf(book) > -1;
   });
 }
 
-Array.prototype.find = function (cb) {
-  var length = this.length;
+function arrayFind(arr, cb) {
+  if (!arr) {
+    return [];
+  }
+  
+  var length = arr.length;
   var index = 0;
   var item;
 
   for (; index < length; index++) {
-    item = this[index];
-    if(cb(item)) {
+    item = arr[index];
+    if (cb(item)) {
       return item;
     }
   }
-};
+}
 
 function valid(item) {
   return item !== undefined && item.length;
