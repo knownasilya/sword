@@ -135,164 +135,164 @@
     "shortCodes": ["dan", "da", "dn"]
   },
   "28": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Hosea",
+    "shortName": "Hos.",
+    "shortCodes": ["hos", "ho"]
   },
   "29": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Joel",
+    "shortName": "Joel",
+    "shortCodes": ["joel", "joe", "jl"]
   },
   "30": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Amos",
+    "shortName": "Amos",
+    "shortCodes": ["amos", "am"]
   },
   "31": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Obadiah",
+    "shortName": "Obad.",
+    "shortCodes": ["obad", "ob"]
   },
   "32": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Jonah",
+    "shortName": "Jon.",
+    "shortCodes": ["jnh", "jon"]
   },
   "33": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Micah",
+    "shortName": "Mic.",
+    "shortCodes": ["mic", "mc"]
   },
   "34": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Nahum",
+    "shortName": "Nah.",
+    "shortCodes": ["nah", "na"]
   },
   "35": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Habakkuk",
+    "shortName": "Hab.",
+    "shortCodes": ["hab", "hbk", "hk"]
   },
   "36": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Zephaniah",
+    "shortName": "Zeph.",
+    "shortCodes": ["zeph", "zep", "zp"]
   },
   "37": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Haggai",
+    "shortName": "Hag.",
+    "shortCodes": ["hag", "hg"]
   },
   "38": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Zechariah",
+    "shortName": "Zech.",
+    "shortCodes": ["zech", "zec", "zc"]
   },
   "39": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Malachi",
+    "shortName": "Mal.",
+    "shortCodes": ["mal", "ml"]
   },
   "40": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Matthew",
+    "shortName": "Mat.",
+    "shortCodes": ["matt", "mt"]
   },
   "41": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Mark",
+    "shortName": "Mark",
+    "shortCodes": ["mrk", "mk", "mr"]
   },
   "42": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Luke",
+    "shortName": "Luke",
+    "shortCodes": ["luk", "lk"]
   },
   "43": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "John",
+    "shortName": "John",
+    "shortCodes": ["jn", "jhn"]
   },
   "44": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Acts",
+    "shortName": "Acts",
+    "shortCodes": ["ac", "act"]
   },
   "45": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Romans",
+    "shortName": "Rom.",
+    "shortCodes": ["rom", "ro", "rm"]
   },
   "46": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "1 Corinthians",
+    "shortName": "1 Cor.",
+    "shortCodes": ["1 cor", "1 co", "i co", "1co", "i cor", "1cor", "i corinthians", "1corinthians", "1st corinthians", "first corinthians"]
   },
   "47": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "2 Corinthians",
+    "shortName": "2 Cor.",
+    "shortCodes": ["2 cor", "2 co", "ii co", "2co", "ii cor", "2cor", "ii corinthians", "2corinthians", "2nd corinthians", "second corinthians"]
   },
   "48": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Galatians",
+    "shortName": "Gal.",
+    "shortCodes": ["gal", "ga"]
   },
   "49": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Ephesians",
+    "shortName": "Eph.",
+    "shortCodes": ["ephes", "eph", "ep"]
   },
   "50": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": ""Philippians",
+    "shortName": "Phil.",
+    "shortCodes": ["phil", "php", "ph"]
   },
   "51": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Colossians",
+    "shortName": "Col.",
+    "shortCodes": ["col", "co", "cl"]
   },
   "52": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "1 Thessalonians",
+    "shortName": "1 Thess.",
+    "shortCodes": ["1 thess", "1 th", "i th", "1th", "i thes", "1thes", "i thess", "1thess", "i thessalonians", "1thessalonians", "1st thessalonians", "first thessalonians"]
   },
   "53": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "2 Thessalonians",
+    "shortName": "2 Thess.",
+    "shortCodes": ["2 thess", "2 th", "ii th", "2th", "ii thes", "2thes", "ii thess", "2thess", "ii thessalonians", "2thessalonians", "2nd thessalonians", "second thessalonians"]
   },
   "54": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "1 Timothy",
+    "shortName": "1 Tim.",
+    "shortCodes": ["1 tim", "1 ti", "i ti", "1ti", "i tim", "1tim", "i timothy", "1timothy", "1st timothy", "first timothy"]
   },
   "55": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "2 Timothy",
+    "shortName": "2 Tim.",
+    "shortCodes": ["2 tim", "2 ti", "ii ti", "2ti", "ii tim", "2tim", "ii timothy", "2timothy", "2nd timothy", "second timothy"]
   },
   "56": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Titus",
+    "shortName": "Ti.",
+    "shortCodes": ["tit", "ti", "tus"]
   },
   "57": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Philemon",
+    "shortName": "Phm.",
+    "shortCodes": ["phm", "plmn"]
   },
   "58": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": ""Hebrews",
+    "shortName": "Heb.",
+    "shortCodes": ["heb", "hb"]
   },
   "59": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "James",
+    "shortName": "Jam.",
+    "shortCodes": ["jas", "jm", "jam"]
   },
   "60": {
     "name": "",
