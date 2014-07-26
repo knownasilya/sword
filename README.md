@@ -45,7 +45,7 @@ Results are in the following form:
 ```js
 [{
   start: {
-    book: 64, chapter: 1, verse: 2
+    book: 62, chapter: 1, verse: 2
   },
   end: {
     verse: 5
