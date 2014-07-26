@@ -36,7 +36,7 @@ test('Multiple passages', function (t) {
 });
 
 test('Languages', function (t) {
-  t.same([['English', 'en']], sword.languages);
+  t.same([['English', 'en'], ['Russian', 'ru']], sword.languages);
   t.end();
 });
 
