@@ -59,7 +59,7 @@ only returning none redundent data.
 
 ### Supported Languages
 
-* English (partially - so far)
+* English
 * ~~Russian~~ (near future)
 
 ## Contributing
