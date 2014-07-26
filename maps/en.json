@@ -295,38 +295,38 @@
     "shortCodes": ["jas", "jm", "jam"]
   },
   "60": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "1 Peter",
+    "shortName": "1 Pet.",
+    "shortCodes": ["1 pet", "1 pe", "i pe", "1pe", "i pet", "1pet", "i pt", "1 pt", "1pt", "i peter", "1peter", "1st peter", "first peter"]
   },
   "61": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "2 Peter",
+    "shortName": "2 Pet.",
+    "shortCodes": ["2 pet", "2 pe", "ii pe", "2pe", "ii pet", "2pet", "ii pt", "2 pt", "2pt", "ii peter", "2peter", "2nd peter", "second peter"]
   },
   "62": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "1 John",
+    "shortName": "1 Jn.",
+    "shortCodes": ["1 john", "1 jn", "i jn", "1jn", "i jo", "1jo", "i joh", "1joh", "i jhn", "1 jhn", "1jhn", "i john", "1john", "1st john", "first john"]
   },
   "63": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "2 John",
+    "shortName": "2 Jn.",
+    "shortCodes": ["2 john", "2 jn", "ii jn", "2jn", "ii jo", "2jo", "ii joh", "2joh", "ii jhn", "2 jhn", "2jhn", "ii john", "2john", "2nd john", "second john"]
   },
   "64": {
-    "name": "1 John",
-    "shortName": "1Jn.",
-    "shortCodes": ["1 john", "1 jn", "i jn", "1jn", "i jo", "1jo", "i joh", "1joh", "i jhn", "1 jhn", "1jhn", "i john", "1john", "1st john", "First John"]
+    "name": "3 John",
+    "shortName": "3 Jn.",
+    "shortCodes": ["3 john", "3 jn", "iii jn", "3jn", "iii jo", "3jo", "iii joh", "3joh", "iii jhn", "3 jhn", "3jhn", "iii john", "3john", "3rd john", "third john"]
   },
   "65": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Jude",
+    "shortName": "Jude",
+    "shortCodes": ["jud", "jude"]
   },
   "66": {
-    "name": "",
-    "shortName": "",
-    "shortCodes": []
+    "name": "Revelation",
+    "shortName": "Rev.",
+    "shortCodes": ["rev", "re", "rv", "the revelation"]
   }
 }

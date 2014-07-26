@@ -6,8 +6,8 @@ var sword = require('../index');
 test('Books only', function (t) {
   t.same(stub({ book: 1 }), sword('gen'), 'single book');
   t.same(stub({ book: 1 }, { book: 2 }), sword('gen-exo'), 'book range');
-  t.same(stub({ book: 64 }), sword('1 jn'), 'book with number (space)');
-  t.same(stub({ book: 64 }), sword('1jn'), 'book with number');
+  t.same(stub({ book: 62 }), sword('1 jn'), 'book with number (space)');
+  t.same(stub({ book: 62 }), sword('1jn'), 'book with number');
   t.end();
 });
 
@@ -30,7 +30,7 @@ test('Book Name', function (t) {
 });
 
 test('Multiple passages', function (t) {
-  t.same(stub({ book: 1 }).concat(stub({ book: 64 })), sword('gen, 1jn'), 'books only');
+  t.same(stub({ book: 1 }).concat(stub({ book: 62 })), sword('gen, 1jn'), 'books only');
   t.same(stub({ book: 1, chapter: 15 }).concat(stub({ chapter: 16 })), sword('gen 15,16'), 'Single book, multiple chapters');
   t.end();
 });
