@@ -2,5 +2,9 @@
   "en": {
     "name": "English",
     "map": "en"
+  },
+  "ru": {
+    "name": "Russian",
+    "map": "ru"
   }
 }
