@@ -5,6 +5,7 @@ var sword = require('../index');
 
 test('Books only', function (t) {
   t.same(stub({ book: 1 }), sword('gen'), 'single book');
+  t.same(stub({ book: 1 }), sword('GeN'), 'single book (case insensitive)');
   t.same(stub({ book: 1 }, { book: 2 }), sword('gen-exo'), 'book range');
   t.same(stub({ book: 62 }), sword('1 jn'), 'book with number (space)');
   t.same(stub({ book: 62 }), sword('1jn'), 'book with number');
