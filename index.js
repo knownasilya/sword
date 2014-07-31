@@ -11,7 +11,7 @@ module.exports = function (passages, languageKey) {
 
   if (language) {
     try {
-      chapterMap = require(path.join(process.cwd(), mapBasePath, language.map));
+      chapterMap = require(path.join(__dirname, mapBasePath, language.map));
       chapterKeys = Object.keys(chapterMap);
     } catch(e) {
       return console.error(e); 
@@ -39,7 +39,7 @@ function bookName(id, languageKey) {
   }
 
   if (languageKey && languageKey !== 'en') {
-    valueMap = require(path.join(process.cwd(), mapBasePath, languageKey));
+    valueMap = require(path.join(__dirname, mapBasePath, languageKey));
   }
   
   var value = valueMap[id];
