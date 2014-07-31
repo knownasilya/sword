@@ -103,7 +103,7 @@ function bookKey(book,lang) {
   return arrayFind(chapterKeys.map(Number), function (key) {
     var chapterMeta = chapterMap[key];
 
-    return chapterMeta.shortCodes.indexOf(book) > -1;
+    return chapterMeta.shortCodes.indexOf(book.toLowerCase()) > -1;
   });
 }
 
