@@ -1,14 +1,14 @@
 'use strict';
 
-var test = require('tape');
+var test = require('prova');
 var sword = require('../index');
 
 test('Books only', function (t) {
-  t.same(stub({ book: 1 }), sword('gen'), 'single book');
-  t.same(stub({ book: 1 }), sword('GeN'), 'single book (case insensitive)');
-  t.same(stub({ book: 1 }, { book: 2 }), sword('gen-exo'), 'book range');
-  t.same(stub({ book: 62 }), sword('1 jn'), 'book with number (space)');
-  t.same(stub({ book: 62 }), sword('1jn'), 'book with number');
+  t.same(sword('gen'), stub({ book: 1 }), 'single book');
+  t.same(sword('GeN'), stub({ book: 1 }), 'single book (case insensitive)');
+  t.same(sword('gen-exo'), stub({ book: 1 }, { book: 2 }), 'book range');
+  t.same(sword('1 jn'), stub({ book: 62 }), 'book with number (space)');
+  t.same(sword('1jn'), stub({ book: 62 }), 'book with number');
   t.end();
 });
 
@@ -18,26 +18,29 @@ test('Chapters', function (t) {
 });
 
 test('Verses', function (t) {
-  t.same(stub({ book: 1, chapter: 5, verse: 4 }), sword('gen 5:4'), 'Chapter and verse');
-  t.same(stub({ book: 1, chapter: 5, verse: 4 }, { verse: 8 }), sword('gen 5:4-8'), 'Chapter and verse range (start only)');
-  t.same(stub({ book: 1, chapter: 5, verse: 4 }, { chapter: 6, verse: 8 }), sword('gen 5:4-6:8'), 'Chapter and verse range (both)');
-  t.same(stub({ book: 1, chapter: 5, verse: 4 }, { book: 2, chapter: 6, verse: 8 }), sword('gen 5:4-exo 6:8'), 'Chapter and verse range (two books)');
+  var start = { book: 1, chapter: 5, verse: 4 };
+
+  t.same(sword('gen 5:4'), stub(start), 'Chapter and verse');
+  t.same(sword('gen 5:4-8'), stub(start, { verse: 8 }), 'Chapter and verse range (start only)');
+  t.same(sword('gen 5:4-6:8'), stub(start, { chapter: 6, verse: 8 }), 'Chapter and verse range (both)');
+  t.same(sword('gen 5:4-exo 6:8'), stub(start, { book: 2, chapter: 6, verse: 8 }), 'Chapter and verse range (two books)');
   t.end();
 });
 
 test('Book Name', function (t) {
-  t.equals('Genesis', sword(1));
+  t.equals(sword(1), 'Genesis', 'Id returns valid book');
+  t.equals(sword(1, 'ru'), 'Бытие', 'Id with language key returns valid book');
   t.end();
 });
 
 test('Multiple passages', function (t) {
-  t.same(stub({ book: 1 }).concat(stub({ book: 62 })), sword('gen, 1jn'), 'books only');
-  t.same(stub({ book: 1, chapter: 15 }).concat(stub({ chapter: 16 })), sword('gen 15,16'), 'Single book, multiple chapters');
+  t.same(sword('gen, 1jn'), stub({ book: 1 }).concat(stub({ book: 62 })), 'books only');
+  t.same(sword('gen 15,16'), stub({ book: 1, chapter: 15 }).concat(stub({ chapter: 16 })), 'Single book, multiple chapters');
   t.end();
 });
 
 test('Languages', function (t) {
-  t.same([['English', 'en'], ['Russian', 'ru']], sword.languages);
+  t.same(sword.languages, [['English', 'en'], ['Russian', 'ru']], 'returns available languages');
   t.end();
 });
 

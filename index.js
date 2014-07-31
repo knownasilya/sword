@@ -1,24 +1,28 @@
 'use strict';
 
-var chapterMap = require('./maps/en');
+var path = require('path');
 var languages = require('./languages');
-var mapBasePath = './maps/';
-var chapterKeys = Object.keys(chapterMap);
-var lastSection;
+var mapBasePath = 'maps';
 var currentSection = 0;
+var chapterMap, chapterKeys, lastSection;
 
-module.exports = function (passages, language) {
-  if (language && languages[language]) {
+module.exports = function (passages, languageKey) {
+  var language = languages[languageKey || 'en'];
+
+  if (language) {
     try {
-      chapterMap = require(mapBasePath + languages[language].map);
-    } catch(e) {}
+      chapterMap = require(path.join(process.cwd(), mapBasePath, language.map));
+      chapterKeys = Object.keys(chapterMap);
+    } catch(e) {
+      return console.error(e); 
+    }
   }
 
   if (typeof passages === 'number') {
-    return bookName(passages, language);
+    return bookName(passages, languageKey);
   }
   else if (typeof passages === 'string') {
-    return processPassages(passages, language);
+    return processPassages(passages, languageKey);
   }
 };
 
@@ -27,15 +31,15 @@ module.exports.languages = Object.keys(languages).map(function (key) {
   return [languages[key].name, key];
 });
 
-function bookName(id, language) {
+function bookName(id, languageKey) {
   var valueMap = chapterMap;
 
   if (!id) {
     throw Error('Invalid id provided');
   }
 
-  if (language && language !== 'en') {
-    valueMap = require('./map/' + language);
+  if (languageKey && languageKey !== 'en') {
+    valueMap = require(path.join(process.cwd(), mapBasePath, languageKey));
   }
   
   var value = valueMap[id];
@@ -84,8 +88,6 @@ function processSection(section) {
   if (book) {
     result.book = bookKey(book);
   }
-  
-  if (chapterVerseSplit.length) debugger;
 
   if (chapterVerseSplit[0]) {
     result[currentSection === 2 && isNum(lastSection.verse) && chapterVerseSplit.length === 1 ? 'verse' : 'chapter'] = Number(chapterVerseSplit[0]);
@@ -99,9 +101,14 @@ function processSection(section) {
   return result;
 }
 
-function bookKey(book,lang) {
+function bookKey(book, lang) {
   return arrayFind(chapterKeys.map(Number), function (key) {
     var chapterMeta = chapterMap[key];
+
+    if (!chapterMeta || !chapterMeta.shortCodes) {
+      console.log(chapterMeta);
+      return false;
+    }
 
     return chapterMeta.shortCodes.indexOf(book.toLowerCase()) > -1;
   });
