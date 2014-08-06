@@ -82,6 +82,8 @@ function processSection(section) {
   var book = match && match.length ? match[0] : '';
   var noBook = book ? section.replace(book, '').replace(' ', '') : section;
   var chapterVerseSplit = noBook.split(':').filter(valid);
+  // TODO: match '.' or ':' for seperator
+  // '1.2'.match(/(\d+)(:|\.)*(\d+)*/) => ["1.2", "1", ".", "2"]
 
   currentSection++;
 
