@@ -12,62 +12,62 @@
   "3": {
     "name": "Leviticus",
     "shortName": "Lev.",
-    "shortCodes": ["lev", "le", "lv"]
+    "shortCodes": ["leviticus", "lev", "le", "lv"]
   },
   "4": {
     "name": "Numbers",
     "shortName": "Num.",
-    "shortCodes": ["num", "nu", "nm", "nb"]
+    "shortCodes": ["numbers", "num", "nu", "nm", "nb", "nmb"]
   },
   "5": {
     "name": "Deuteronomy",
     "shortName": "Deut.",
-    "shortCodes": ["deut", "dt"]
+    "shortCodes": ["deuteronomy", "deut", "dt"]
   },
   "6": {
     "name": "Joshua",
     "shortName": "Josh.",
-    "shortCodes": ["josh", "jos", "jsh"]
+    "shortCodes": ["joshua", "josh", "jos", "jsh"]
   },
   "7": {
     "name": "Judges",
     "shortName": "Judg.",
-    "shortCodes": ["judg", "jdg", "jg", "jdgs"]
+    "shortCodes": ["judges", "judg", "jdg", "jg", "jdgs"]
   },
   "8": {
     "name": "Ruth",
     "shortName": "Ruth",
-    "shortCodes": ["rth", "ru"]
+    "shortCodes": ["ruth", "rth", "ru"]
   },
   "9": {
     "name": "1 Samuel",
     "shortName": "1 Sam.",
-    "shortCodes": ["1 sam", "1 sa", "1samuel", "1s", "i sa", "1 sm", "1sa", "i sam", "1sam", "i samuel", "1st samuel", "first samuel"]
+    "shortCodes": ["1 samuel", "1 sam", "1 sa", "1samuel", "1s", "i sa", "1 sm", "1sa", "i sam", "1sam", "i samuel", "1st samuel", "first samuel"]
   },
   "10": {
     "name": "2 Samuel",
     "shortName": "2 Sam.",
-    "shortCodes": ["2 sam", "2 sa", "2s", "ii sa", "2 sm", "2sa", "ii sam", "2sam", "ii samuel", "2samuel", "2nd samuel", "second samuel"]
+    "shortCodes": ["2 samuel", "2 sam", "2 sa", "2s", "ii sa", "2 sm", "2sa", "ii sam", "2sam", "ii samuel", "2samuel", "2nd samuel", "second samuel"]
   },
   "11": {
     "name": "1 Kings",
     "shortName": "1 Kng",
-    "shortCodes": ["1 kgs", "1 ki", "1k", "i kgs", "1kgs", "i ki", "1ki", "i kings", "1kings", "1st kgs", "1st kings", "first kings", "first kgs", "1kin"]
+    "shortCodes": ["1 kings", "1 kgs", "1 ki", "1k", "i kgs", "1kgs", "i ki", "1ki", "i kings", "1kings", "1st kgs", "1st kings", "first kings", "first kgs", "1kin"]
   },
   "12": {
     "name": "2 Kings",
     "shortName": "2 Kng",
-    "shortCodes": ["2 kgs", "2 ki", "2k", "ii kgs", "2kgs", "ii ki", "2ki", "ii kings", "2kings", "2nd kgs", "2nd kings", "second kings", "second kgs", "2kin"]
+    "shortCodes": ["2 kings", "2 kgs", "2 ki", "2k", "ii kgs", "2kgs", "ii ki", "2ki", "ii kings", "2kings", "2nd kgs", "2nd kings", "second kings", "second kgs", "2kin"]
   },
   "13": {
     "name": "1 Chronicles",
     "shortName": "1 Chron.",
-    "shortCodes": ["1 chron", "1 ch", "i ch", "1ch", "1 chr", "i chr", "1chr", "i chron", "1chron", "i chronicles", "1chronicles", "1st chronicles", "first chronicles"]
+    "shortCodes": ["1 chronicles", "1 chron", "1 ch", "i ch", "1ch", "1 chr", "i chr", "1chr", "i chron", "1chron", "i chronicles", "1chronicles", "1st chronicles", "first chronicles"]
   },
   "14": {
     "name": "2 Chronicles",
     "shortName": "2 Chron.",
-    "shortCodes": ["2 chron", "2 ch", "ii ch", "2ch", "ii chr", "2chr", "ii chron", "2chron", "ii chronicles", "2chronicles", "2nd chronicles", "second chronicles"]
+    "shortCodes": ["2 chronicles", "2 chron", "2 ch", "ii ch", "2ch", "ii chr", "2chr", "ii chron", "2chron", "ii chronicles", "2chronicles", "2nd chronicles", "second chronicles"]
   },
   "15": {
     "name": "Ezra",
@@ -77,12 +77,12 @@
   "16": {
     "name": "Nehemiah",
     "shortName": "Neh",
-    "shortCodes": ["neh", "ne"]
+    "shortCodes": ["nehemiah", "neh", "ne"]
   },
   "17": {
     "name": "Esther",
     "shortName": "Esth.",
-    "shortCodes": ["esth", "es"]
+    "shortCodes": ["ester", "esth", "es"]
   },
   "18": {
     "name": "Job",
@@ -92,52 +92,52 @@
   "19": {
     "name": "Psalm",
     "shortName": "Ps.",
-    "shortCodes": ["pslm", "ps", "psalms", "psa", "psm", "pss"]
+    "shortCodes": ["psalms", "pslm", "ps", "psalms", "psa", "psm", "pss"]
   },
   "20": {
     "name": "Proverbs",
     "shortName": "Prov.",
-    "shortCodes": ["prov", "pr", "prv"]
+    "shortCodes": ["proverbs", "prov", "pr", "prv"]
   },
   "21": {
     "name": "Ecclesiastes",
     "shortName": "Eccl.",
-    "shortCodes": ["eccles", "ec"]
+    "shortCodes": ["ecclesiastes", "eccles", "ec"]
   },
   "22": {
     "name": "Song of Solomon",
     "shortName": "So.",
-    "shortCodes": ["song", "so", "song of songs", "sos"]
+    "shortCodes": ["song of solomon", "song", "so", "song of songs", "sos"]
   },
   "23": {
     "name": "Isaiah",
     "shortName": "Isa.",
-    "shortCodes": ["isa", "is"]
+    "shortCodes": ["isaiah", "isa", "is"]
   },
   "24": {
     "name": "Jeremiah",
     "shortName": "Jer.",
-    "shortCodes": ["jer", "je", "jr"]
+    "shortCodes": ["jeremiah", "jer", "je", "jr"]
   },
   "25": {
     "name": "Lamentations",
     "shortName": "Lam.",
-    "shortCodes": ["lam", "la"]
+    "shortCodes": ["lamentations", "lam", "la"]
   },
   "26": {
     "name": "Ezekiel",
     "shortName": "Ezek.",
-    "shortCodes": ["ezek", "eze", "ezk"]
+    "shortCodes": ["ezekiel", "ezek", "eze", "ezk"]
   },
   "27": {
     "name": "Daniel",
     "shortName": "Dan.",
-    "shortCodes": ["dan", "da", "dn"]
+    "shortCodes": ["daniel", "dan", "da", "dn"]
   },
   "28": {
     "name": "Hosea",
     "shortName": "Hos.",
-    "shortCodes": ["hos", "ho"]
+    "shortCodes": ["hosea", "hos", "ho"]
   },
   "29": {
     "name": "Joel",
@@ -152,157 +152,157 @@
   "31": {
     "name": "Obadiah",
     "shortName": "Obad.",
-    "shortCodes": ["obad", "ob"]
+    "shortCodes": ["obadiah", "obad", "ob"]
   },
   "32": {
     "name": "Jonah",
     "shortName": "Jon.",
-    "shortCodes": ["jnh", "jon"]
+    "shortCodes": ["jonah", "jnh", "jon"]
   },
   "33": {
     "name": "Micah",
     "shortName": "Mic.",
-    "shortCodes": ["mic", "mc"]
+    "shortCodes": ["micah", "mic", "mc"]
   },
   "34": {
     "name": "Nahum",
     "shortName": "Nah.",
-    "shortCodes": ["nah", "na"]
+    "shortCodes": ["nahum", "nah", "na"]
   },
   "35": {
     "name": "Habakkuk",
     "shortName": "Hab.",
-    "shortCodes": ["hab", "hbk", "hk"]
+    "shortCodes": ["habakkuk", "hab", "hbk", "hk"]
   },
   "36": {
     "name": "Zephaniah",
     "shortName": "Zeph.",
-    "shortCodes": ["zeph", "zep", "zp"]
+    "shortCodes": ["zephaniah", "zeph", "zep", "zp"]
   },
   "37": {
     "name": "Haggai",
     "shortName": "Hag.",
-    "shortCodes": ["hag", "hg"]
+    "shortCodes": ["haggai", "hag", "hg"]
   },
   "38": {
     "name": "Zechariah",
     "shortName": "Zech.",
-    "shortCodes": ["zech", "zec", "zc"]
+    "shortCodes": ["zechariah", "zech", "zec", "zc"]
   },
   "39": {
     "name": "Malachi",
     "shortName": "Mal.",
-    "shortCodes": ["mal", "ml"]
+    "shortCodes": ["malachi", "mal", "ml"]
   },
   "40": {
     "name": "Matthew",
     "shortName": "Mat.",
-    "shortCodes": ["matt", "mt"]
+    "shortCodes": ["matthew", "matt", "mt"]
   },
   "41": {
     "name": "Mark",
     "shortName": "Mark",
-    "shortCodes": ["mrk", "mk", "mr"]
+    "shortCodes": ["mark", "mrk", "mk", "mr"]
   },
   "42": {
     "name": "Luke",
     "shortName": "Luke",
-    "shortCodes": ["luk", "lk"]
+    "shortCodes": ["luke", "luk", "lk"]
   },
   "43": {
     "name": "John",
     "shortName": "John",
-    "shortCodes": ["jn", "jhn"]
+    "shortCodes": ["john", "jn", "jhn"]
   },
   "44": {
     "name": "Acts",
     "shortName": "Acts",
-    "shortCodes": ["ac", "act"]
+    "shortCodes": ["acts", "ac", "act"]
   },
   "45": {
     "name": "Romans",
     "shortName": "Rom.",
-    "shortCodes": ["rom", "ro", "rm"]
+    "shortCodes": ["romans", "rom", "ro", "rm"]
   },
   "46": {
     "name": "1 Corinthians",
     "shortName": "1 Cor.",
-    "shortCodes": ["1 cor", "1 co", "i co", "1co", "i cor", "1cor", "i corinthians", "1corinthians", "1st corinthians", "first corinthians"]
+    "shortCodes": ["1 corinthians", "1 cor", "1 co", "i co", "1co", "i cor", "1cor", "i corinthians", "1corinthians", "1st corinthians", "first corinthians"]
   },
   "47": {
     "name": "2 Corinthians",
     "shortName": "2 Cor.",
-    "shortCodes": ["2 cor", "2 co", "ii co", "2co", "ii cor", "2cor", "ii corinthians", "2corinthians", "2nd corinthians", "second corinthians"]
+    "shortCodes": ["2 corinthians", "2 cor", "2 co", "ii co", "2co", "ii cor", "2cor", "ii corinthians", "2corinthians", "2nd corinthians", "second corinthians"]
   },
   "48": {
     "name": "Galatians",
     "shortName": "Gal.",
-    "shortCodes": ["gal", "ga"]
+    "shortCodes": ["galatians", "gal", "ga"]
   },
   "49": {
     "name": "Ephesians",
     "shortName": "Eph.",
-    "shortCodes": ["ephes", "eph", "ep"]
+    "shortCodes": ["ephesians", "ephes", "eph", "ep"]
   },
   "50": {
     "name": "Philippians",
     "shortName": "Phil.",
-    "shortCodes": ["phil", "php", "ph"]
+    "shortCodes": ["philippians", "phil", "php", "ph"]
   },
   "51": {
     "name": "Colossians",
     "shortName": "Col.",
-    "shortCodes": ["col", "co", "cl"]
+    "shortCodes": ["colossians", "col", "co", "cl"]
   },
   "52": {
     "name": "1 Thessalonians",
     "shortName": "1 Thess.",
-    "shortCodes": ["1 thess", "1 th", "i th", "1th", "i thes", "1thes", "i thess", "1thess", "i thessalonians", "1thessalonians", "1st thessalonians", "first thessalonians"]
+    "shortCodes": ["1 thessalonians", "1 thess", "1 th", "i th", "1th", "i thes", "1thes", "i thess", "1thess", "i thessalonians", "1thessalonians", "1st thessalonians", "first thessalonians"]
   },
   "53": {
     "name": "2 Thessalonians",
     "shortName": "2 Thess.",
-    "shortCodes": ["2 thess", "2 th", "ii th", "2th", "ii thes", "2thes", "ii thess", "2thess", "ii thessalonians", "2thessalonians", "2nd thessalonians", "second thessalonians"]
+    "shortCodes": ["2 thessalonians", "2 thess", "2 th", "ii th", "2th", "ii thes", "2thes", "ii thess", "2thess", "ii thessalonians", "2thessalonians", "2nd thessalonians", "second thessalonians"]
   },
   "54": {
     "name": "1 Timothy",
     "shortName": "1 Tim.",
-    "shortCodes": ["1 tim", "1 ti", "i ti", "1ti", "i tim", "1tim", "i timothy", "1timothy", "1st timothy", "first timothy"]
+    "shortCodes": ["1 timothy", "1 tim", "1 ti", "i ti", "1ti", "i tim", "1tim", "i timothy", "1timothy", "1st timothy", "first timothy"]
   },
   "55": {
     "name": "2 Timothy",
     "shortName": "2 Tim.",
-    "shortCodes": ["2 tim", "2 ti", "ii ti", "2ti", "ii tim", "2tim", "ii timothy", "2timothy", "2nd timothy", "second timothy"]
+    "shortCodes": ["2 timothy", "2 tim", "2 ti", "ii ti", "2ti", "ii tim", "2tim", "ii timothy", "2timothy", "2nd timothy", "second timothy"]
   },
   "56": {
     "name": "Titus",
     "shortName": "Ti.",
-    "shortCodes": ["tit", "ti", "tus"]
+    "shortCodes": ["titus", "tit", "ti", "tus"]
   },
   "57": {
     "name": "Philemon",
     "shortName": "Phm.",
-    "shortCodes": ["phm", "plmn"]
+    "shortCodes": ["philemon", "phm", "plmn"]
   },
   "58": {
     "name": "Hebrews",
     "shortName": "Heb.",
-    "shortCodes": ["heb", "hb"]
+    "shortCodes": ["hebrews", "heb", "hb", "hebr"]
   },
   "59": {
     "name": "James",
     "shortName": "Jam.",
-    "shortCodes": ["jas", "jm", "jam"]
+    "shortCodes": ["james", "jas", "jm", "jam"]
   },
   "60": {
     "name": "1 Peter",
     "shortName": "1 Pet.",
-    "shortCodes": ["1 pet", "1 pe", "i pe", "1pe", "i pet", "1pet", "i pt", "1 pt", "1pt", "i peter", "1peter", "1st peter", "first peter"]
+    "shortCodes": ["1 peter", "1 pet", "1 pe", "i pe", "1pe", "i pet", "1pet", "i pt", "1 pt", "1pt", "i peter", "1peter", "1st peter", "first peter"]
   },
   "61": {
     "name": "2 Peter",
     "shortName": "2 Pet.",
-    "shortCodes": ["2 pet", "2 pe", "ii pe", "2pe", "ii pet", "2pet", "ii pt", "2 pt", "2pt", "ii peter", "2peter", "2nd peter", "second peter"]
+    "shortCodes": ["2 peter", "2 pet", "2 pe", "ii pe", "2pe", "ii pet", "2pet", "ii pt", "2 pt", "2pt", "ii peter", "2peter", "2nd peter", "second peter"]
   },
   "62": {
     "name": "1 John",
@@ -322,11 +322,11 @@
   "65": {
     "name": "Jude",
     "shortName": "Jude",
-    "shortCodes": ["jud", "jude"]
+    "shortCodes": ["jude", "jud"]
   },
   "66": {
     "name": "Revelation",
     "shortName": "Rev.",
-    "shortCodes": ["rev", "re", "rv", "the revelation"]
+    "shortCodes": ["revelation", "revelations", "rev", "re", "rv", "the revelation"]
   }
 }
