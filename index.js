@@ -78,7 +78,7 @@ function processPassages(str, languageKey) {
 // Start/end sections
 function processSection(section) {
   var result = {};
-  var match = section.match(/(\d*\s*[a-z]+)+/i);
+  var match = section.match(/(((1st|2nd|3rd)|(\d+)|(first|second|third)|(i{1,3}))\s*)?([a-z]+)/i);
   var book = match && match.length ? match[0] : '';
   var noBook = book ? section.replace(book, '').replace(' ', '') : section;
   var chapterVerseSplit = noBook.split(':').filter(valid);

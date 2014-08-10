@@ -9,6 +9,9 @@ test('Books only', function (t) {
   t.same(sword('gen-exo'), stub({ book: 1 }, { book: 2 }), 'book range');
   t.same(sword('1 jn'), stub({ book: 62 }), 'book with number (space)');
   t.same(sword('1jn'), stub({ book: 62 }), 'book with number');
+  t.same(sword('first john'), stub({ book: 62 }), 'book with number word (first, space)');
+  t.same(sword('1st john'), stub({ book: 62 }), 'book with number (1st, space)');
+  t.same(sword('i john'), stub({ book: 62 }), 'book with number (1st, space)');
   t.end();
 });
 
