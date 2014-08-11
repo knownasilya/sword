@@ -5,9 +5,10 @@ var languages = require('./languages');
 var mapBasePath = 'maps';
 var currentSection = 0;
 var chapterMap, chapterKeys, lastSection;
+var language;
 
 module.exports = function (passages, languageKey) {
-  var language = languages[languageKey || 'en'];
+  language = languages[languageKey || 'en'];
 
   if (language) {
     try {
@@ -78,7 +79,8 @@ function processPassages(str, languageKey) {
 // Start/end sections
 function processSection(section) {
   var result = {};
-  var match = section.match(/(((1st|2nd|3rd)|(\d+)|(first|second|third)|(i{1,3}))\s*)?([a-z]+)/i);
+  var bookRegexp = new RegExp(language.bookRegexp, 'i');
+  var match = section.match(bookRegexp);
   var book = match && match.length ? match[0] : '';
   var noBook = book ? section.replace(book, '').replace(' ', '') : section;
   var chapterVerseSplit = noBook.split(':').filter(valid);
